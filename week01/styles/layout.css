@@ -1,0 +1,56 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0%;
+    display: grid;
+    font-family: Arial, sans-serif;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    
+}
+/* Header styling */
+header {
+    background-color: rgb(75, 114, 114);
+    padding: 1rem;
+}
+nav, ul {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: rgb(87, 151, 211);
+    width: 100%;
+}
+
+nav,  ul, li {
+    margin: 0 2rem;
+}
+nav,  ul, li, a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: flex;
+}
+ /* Main and aside layout using grid */   
+main {
+    display: grid;
+    padding: 2rem;
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr;
+}
+.main-content {
+    padding: 1rem;
+    background-color: beige;
+}
+.side-conent {
+    padding: 2rem;
+}
+/* Footer styling */
+footer {
+    padding: 1.0rem;
+    text-align: center;
+    background-color: dimgray;
+    
+    
+}
