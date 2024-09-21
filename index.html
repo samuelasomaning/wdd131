@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>DocumentBYU-wdd131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Samuel Asomaning</title>
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="/scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <p>wdd131 Samuel Asomaning</p>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - Samuel Asomaning</h1>
+        <nav>
+            <ul>
+                <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+                <a href="https://byui.instructure.com/">I-Learn</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures">Scripture</a>
+                <a href="#">Final Project</a>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="content">
+                <img src="images\samuel.jpg" alt="Samuel Asomaning">
+                <p>My name is Samuel Asomaning, and I am from Ghana. I live in Accra with my family, who are my top
+                    priority. <br> I am currently a student at BYU-Pathway, pursuing my studies while working as a
+                    hardware technician. <br> I am passionate about technology and enjoy exploring new things online,
+                    <br> always eager to stay up-to-date with the latest tech trends.
+                </p>
+            </div>
+
+            <h3>Accra, Ghana</h3>
+            <hr>
+            <div class="content1">
+                <p>Ghana is located in West Africa, is known for its rich history and vibrant culture. <br> It was the
+                    first African nation to gain independence from colonial rule in 1957, led by Kwame Nkrumah. <br> The
+                    country is famous for its diverse landscapes, ranging from coastal beaches to lush rainforests and
+                    savannahs. <br> Ghana is a hub for cocoa production, being one of the world’s leading exporters.
+                    <br>The capital, Accra, is a bustling city that reflects the country’s blend of tradition and
+                    modernity. Known for its warm hospitality.
+                </p>
+                <img src="images\gh-flag.jpg" alt="Flag of Ghana">
+            </div>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://css-tricks.com/">CSS css-tricks</a></li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+                <li><a href="https://picsum.photos/">Lorem Picsum</a></li>
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <p id="copyright">@<span id="year"></span> Samuel Asomaning</p>
+        <p id="lastModified">Last modified: <span id="modifiedDate"></span></p>
+    </footer>
 </body>
+
 </html>
