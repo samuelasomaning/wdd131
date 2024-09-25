@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #808686;
+    color: rgb(91, 175, 243);
+    padding: 10px;
+    text-align: center;
+}
+
+/* Flex Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p {
+    color: rgb(91, 175, 243);
+}
+
+.hamburger {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: rgb(91, 175, 243);
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+figure {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+footer {
+    background-color: #808686;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+
+}
+footer p {
+    margin: 0;
+}
+
