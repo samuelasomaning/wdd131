@@ -25,9 +25,6 @@ nav {
     align-items: center;
 }
 
-nav p {
-    color: rgb(91, 175, 243);
-}
 
 .hamburger {
     font-size: 24px;
@@ -49,7 +46,7 @@ nav p {
 }
 
 .menu a {
-    color: white;
+    color: rgb(91, 175, 243);
     text-decoration: none;
 }
 
@@ -62,7 +59,8 @@ main {
     padding: 20px;
     margin: 0%;
     padding: 0%;
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 figure {
@@ -86,6 +84,11 @@ footer {
     font-size: 14px;
     position: relative;
 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 footer p {
     margin: 0;
