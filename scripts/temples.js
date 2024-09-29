@@ -5,30 +5,13 @@ const lastModifiedDate = document.lastModified;
 document.getElementById("modifiedDate").textContent = lastModifiedDate;
 
 const hamburger = document.querySelector(".hamburger");
-const menu = document.getElementById('.menu');
+const navMenu = document.querySelector('.menu');
 
-function toggleMenu() {
-    if (menu.style.display === "flex") {
-        menu.style.display = "none";
-        hamburger.textContent = "☰"; // Hamburger icon
+hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("show");
+    if (navMenu.classList.contains("show")) {
+        hamburger.textContent = "✕"; 
     } else {
-        menu.style.display = "block";
-        hamburger.textContent = "✖"; // Close (X) icon
+        hamburger.textContent = "☰";
     }
-}
-
-hamburger.addEventListener("click", toggleMenu);
-
-function Resize() {
-    window.addEventListener() {
-        if (window.innerWidth > 768) {
-            menu.style.display = "flex";
-            humburger.style.display = "none";
-        } else {
-            menu.style.display = "none";
-            hamburger.style.display = "block";
-            hamburger.textContent = "☰";
-        }
-    }
-    
-}
+});
